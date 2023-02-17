@@ -1,6 +1,8 @@
 const moment = require("moment");
+const { test } = require("./func");
 
 const formatDate = (date) => {
+    test();
     return moment(date).format("dd/MM/yyyy");
 }
 
